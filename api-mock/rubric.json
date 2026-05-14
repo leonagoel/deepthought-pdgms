@@ -1,0 +1,66 @@
+{
+  "version": "1.0",
+  "name": "PDGMS Thread Quality Rubric",
+  "description": "Scoring rubric for evaluating Question → Hypothesis → Experiment threads in the Socratic Dialogue LMS",
+  "max_score": 20,
+  "criteria": [
+    {
+      "id": "question_clarity",
+      "name": "Question Clarity",
+      "max_points": 5,
+      "description": "Is the question specific, observable, and meaningful?",
+      "levels": [
+        { "score": 1, "label": "Vague", "descriptor": "Question is too broad or unclear to guide inquiry" },
+        { "score": 2, "label": "General", "descriptor": "Question has direction but lacks specificity" },
+        { "score": 3, "label": "Focused", "descriptor": "Question is clear but could be more precise" },
+        { "score": 4, "label": "Specific", "descriptor": "Question is clear, specific, and leads to inquiry" },
+        { "score": 5, "label": "Exceptional", "descriptor": "Question is precise, observable, and drives meaningful exploration" }
+      ]
+    },
+    {
+      "id": "hypothesis_testability",
+      "name": "Hypothesis Testability",
+      "max_points": 5,
+      "description": "Is the hypothesis falsifiable and measurable?",
+      "levels": [
+        { "score": 1, "label": "Untestable", "descriptor": "Cannot be tested or measured" },
+        { "score": 2, "label": "Partially Testable", "descriptor": "Some measurable elements but vague" },
+        { "score": 3, "label": "Testable", "descriptor": "Can be tested with some additional refinement" },
+        { "score": 4, "label": "Measurable", "descriptor": "Clear, measurable, and falsifiable" },
+        { "score": 5, "label": "Scientific", "descriptor": "Fully falsifiable with quantitative success criteria" }
+      ]
+    },
+    {
+      "id": "experiment_design",
+      "name": "Experiment Design",
+      "max_points": 5,
+      "description": "Is the experiment well-structured with controls and measurable outcomes?",
+      "levels": [
+        { "score": 1, "label": "No Design", "descriptor": "No clear experimental structure" },
+        { "score": 2, "label": "Basic", "descriptor": "Some structure but missing controls" },
+        { "score": 3, "label": "Structured", "descriptor": "Has controls and outcomes but not rigorous" },
+        { "score": 4, "label": "Rigorous", "descriptor": "Well-controlled with clear measurement plan" },
+        { "score": 5, "label": "Excellent", "descriptor": "Fully controlled, reproducible, with statistical validity plan" }
+      ]
+    },
+    {
+      "id": "evidence_quality",
+      "name": "Evidence Quality",
+      "max_points": 5,
+      "description": "Is the reasoning grounded in evidence and free from unsupported claims?",
+      "levels": [
+        { "score": 1, "label": "No Evidence", "descriptor": "Claims made without any grounding" },
+        { "score": 2, "label": "Anecdotal", "descriptor": "Based on personal experience only" },
+        { "score": 3, "label": "Referenced", "descriptor": "Some evidence cited but not rigorous" },
+        { "score": 4, "label": "Evidence-Based", "descriptor": "Claims supported by credible references" },
+        { "score": 5, "label": "Rigorous", "descriptor": "All claims traceable to verifiable evidence" }
+      ]
+    }
+  ],
+  "grade_bands": [
+    { "min": 18, "max": 20, "grade": "A", "label": "Exceptional", "color": "#22c55e" },
+    { "min": 14, "max": 17, "grade": "B", "label": "Proficient", "color": "#3b82f6" },
+    { "min": 10, "max": 13, "grade": "C", "label": "Developing", "color": "#f59e0b" },
+    { "min": 0, "max": 9, "grade": "D", "label": "Needs Work", "color": "#ef4444" }
+  ]
+}

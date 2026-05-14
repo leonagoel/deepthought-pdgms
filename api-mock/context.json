@@ -1,0 +1,31 @@
+{
+  "platform": "PDGMS AI Platform",
+  "version": "2.0",
+  "organization": "DeepThought CultureTech",
+  "mission": "Transform every school/college into an MIT/Harvard/IISER-style research institution by 2030",
+  "methodology": {
+    "name": "Socratic Dialogue LMS",
+    "abbreviation": "SD LMS",
+    "framework": "Question → Hypothesis → Experiment",
+    "pdgms": {
+      "P": "Problem Definition",
+      "D": "Direction / Goal Setting",
+      "G": "Generating Hypotheses",
+      "M": "Measurement Design",
+      "S": "Scientific Execution"
+    }
+  },
+  "ai_guardrails": {
+    "enabled": true,
+    "confidence_threshold": 0.70,
+    "require_source_citation": true,
+    "contradiction_detection": true,
+    "human_checkpoint_required_above_risk": "high"
+  },
+  "clients": ["Kringle.ai", "Growpital", "IPx"],
+  "roles": {
+    "mentor": "Guides the Socratic process, asks probing questions",
+    "learner": "Forms questions, hypotheses, and experiment designs",
+    "ai_assistant": "Suggests, validates, and flags quality issues"
+  }
+}

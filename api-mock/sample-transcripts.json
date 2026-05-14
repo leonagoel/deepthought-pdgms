@@ -1,0 +1,86 @@
+[
+  {
+    "id": "transcript_001",
+    "session": "Socratic Dialogue — Session 1",
+    "date": "2026-05-01",
+    "participants": ["Mentor", "Learner"],
+    "thread": {
+      "question": "Why do students disengage from traditional lectures within 10 minutes?",
+      "hypothesis": "Students disengage because passive listening does not activate retrieval memory pathways, leading to cognitive drift.",
+      "experiment": "Compare engagement metrics between 10-min lecture segments vs. 10-min Socratic Q&A segments using eye-tracking and response latency."
+    },
+    "dialogue": [
+      { "speaker": "Mentor", "text": "What did you observe in today's class?" },
+      { "speaker": "Learner", "text": "Most students stopped paying attention after about 10 minutes." },
+      { "speaker": "Mentor", "text": "What do you think caused that?" },
+      { "speaker": "Learner", "text": "Maybe the lecture was boring?" },
+      { "speaker": "Mentor", "text": "That's an observation. Can you form a testable hypothesis?" },
+      { "speaker": "Learner", "text": "Passive listening doesn't activate memory retrieval, so attention fades." },
+      { "speaker": "Mentor", "text": "Good. How would you test this?" },
+      { "speaker": "Learner", "text": "Compare engagement between passive lecture and Socratic Q&A using response time data." }
+    ],
+    "scores": {
+      "question_clarity": 4,
+      "hypothesis_testability": 5,
+      "experiment_design": 4,
+      "evidence_quality": 3,
+      "total": 16
+    }
+  },
+  {
+    "id": "transcript_002",
+    "session": "Socratic Dialogue — Session 2",
+    "date": "2026-05-03",
+    "participants": ["Mentor", "Learner"],
+    "thread": {
+      "question": "Does immediate feedback improve skill retention in coding learners?",
+      "hypothesis": "Immediate feedback reduces the error reinforcement loop, leading to 30% better retention over 2 weeks.",
+      "experiment": "A/B test: Group A gets feedback after each line, Group B gets feedback after full task. Measure retention at day 7 and day 14."
+    },
+    "dialogue": [
+      { "speaker": "Mentor", "text": "You mentioned students forget code syntax fast. Why?" },
+      { "speaker": "Learner", "text": "Because they don't get corrected immediately when they're wrong." },
+      { "speaker": "Mentor", "text": "What's your hypothesis?" },
+      { "speaker": "Learner", "text": "Immediate feedback prevents wrong patterns from being memorized." },
+      { "speaker": "Mentor", "text": "Can you make that measurable?" },
+      { "speaker": "Learner", "text": "Yes — if immediate feedback improves retention by at least 30% over delayed feedback in a 2-week test." },
+      { "speaker": "Mentor", "text": "Excellent. Design the experiment." },
+      { "speaker": "Learner", "text": "Two groups: one gets per-line feedback, the other after the full task. Test retention at day 7 and 14." }
+    ],
+    "scores": {
+      "question_clarity": 5,
+      "hypothesis_testability": 5,
+      "experiment_design": 5,
+      "evidence_quality": 4,
+      "total": 19
+    }
+  },
+  {
+    "id": "transcript_003",
+    "session": "Socratic Dialogue — Session 3",
+    "date": "2026-05-06",
+    "participants": ["Mentor", "Learner"],
+    "thread": {
+      "question": "Can AI-generated Socratic prompts replace human mentors for beginner learners?",
+      "hypothesis": "AI prompts can achieve 80% of human mentor effectiveness for structured Q→H→E threads if trained on high-quality transcripts.",
+      "experiment": "Blind evaluation: 20 learners use AI mentor vs human mentor for 4 sessions each. Evaluate thread quality using rubric.json scores."
+    },
+    "dialogue": [
+      { "speaker": "Mentor", "text": "What problem are you trying to solve with AI in education?" },
+      { "speaker": "Learner", "text": "Scaling Socratic mentorship — there aren't enough good mentors." },
+      { "speaker": "Mentor", "text": "So what's your question?" },
+      { "speaker": "Learner", "text": "Can AI replace human Socratic mentors for beginners?" },
+      { "speaker": "Mentor", "text": "What's your hypothesis?" },
+      { "speaker": "Learner", "text": "AI can achieve 80% of human effectiveness on structured threads." },
+      { "speaker": "Mentor", "text": "How do you define effectiveness?" },
+      { "speaker": "Learner", "text": "Using the rubric scores — question clarity, hypothesis testability, experiment design." }
+    ],
+    "scores": {
+      "question_clarity": 4,
+      "hypothesis_testability": 4,
+      "experiment_design": 5,
+      "evidence_quality": 4,
+      "total": 17
+    }
+  }
+]
